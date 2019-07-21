@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Kenta\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Kenta\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_ConvertTEIToJSON.-1566086921.00" t="ExcludeRecursive" />
+    <e p="E:\git\typeme\ConvertTEIToJSON" t="IncludeFlat">
+      <e p="ConvertTEIToJSON.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="TEI2JSON" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="TEI2JSON.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="TEI2JSON.csproj" t="IncludeRecursive" />
+        <e p="words.json" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>

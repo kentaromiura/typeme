@@ -1,0 +1,11 @@
+E:\git\typeme\ConvertTEIToJSON\TEI2JSON\bin\Debug\netcoreapp2.2\TEI2JSON.deps.json
+E:\git\typeme\ConvertTEIToJSON\TEI2JSON\bin\Debug\netcoreapp2.2\TEI2JSON.runtimeconfig.json
+E:\git\typeme\ConvertTEIToJSON\TEI2JSON\bin\Debug\netcoreapp2.2\TEI2JSON.runtimeconfig.dev.json
+E:\git\typeme\ConvertTEIToJSON\TEI2JSON\bin\Debug\netcoreapp2.2\TEI2JSON.dll
+E:\git\typeme\ConvertTEIToJSON\TEI2JSON\bin\Debug\netcoreapp2.2\TEI2JSON.pdb
+E:\git\typeme\ConvertTEIToJSON\TEI2JSON\obj\Debug\netcoreapp2.2\TEI2JSON.csprojAssemblyReference.cache
+E:\git\typeme\ConvertTEIToJSON\TEI2JSON\obj\Debug\netcoreapp2.2\TEI2JSON.csproj.CoreCompileInputs.cache
+E:\git\typeme\ConvertTEIToJSON\TEI2JSON\obj\Debug\netcoreapp2.2\TEI2JSON.AssemblyInfoInputs.cache
+E:\git\typeme\ConvertTEIToJSON\TEI2JSON\obj\Debug\netcoreapp2.2\TEI2JSON.AssemblyInfo.cs
+E:\git\typeme\ConvertTEIToJSON\TEI2JSON\obj\Debug\netcoreapp2.2\TEI2JSON.dll
+E:\git\typeme\ConvertTEIToJSON\TEI2JSON\obj\Debug\netcoreapp2.2\TEI2JSON.pdb
