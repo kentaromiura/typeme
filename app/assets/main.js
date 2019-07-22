@@ -68,7 +68,7 @@ const keypositions = {
         top: 118,
     },
     c: {
-        left: 113,
+        left: 133,
         top: 113
     },
     v: {
