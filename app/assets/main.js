@@ -139,6 +139,9 @@ const fillKeyboardDivs = () => {
         const keyBtn = document.getElementById(`key-${key}`);
         keyBtn.style.left = `${keypositions[key].left}px`;
         keyBtn.style.top = `${keypositions[key].top}px`;
+        if (key === ' ') {
+            keyBtn.style.transform = 'translate(-2px,2px) rotatez(30deg) scaley(1.7)';
+        }
     })
 
 };
