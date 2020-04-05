@@ -146,6 +146,48 @@ const fillKeyboardDivs = () => {
 
 };
 
+const showFinger = key => {
+    let next = 0;
+    switch (key) {
+        case 'q':
+        case 'a':
+        case 'z':
+            next = 34; break;
+        case 'w':
+        case 's':
+        case 'x':
+            next = 56; break;
+        case 'e':
+        case 'd':
+        case 'c':
+            next = 77; break;
+        case 'r':
+        case 'f':
+        case 'v':
+        case 't':
+        case 'g':
+        case 'b':
+            next = 102; break;
+        case ' ':
+            next = 155; break;
+        case 'y':
+        case 'h':
+        case 'n':
+        case 'u':
+        case 'j':
+        case 'm':
+            next = 566; break;
+        case 'i':
+        case 'k':
+            next = 593; break;
+        case 'o':
+        case 'l':
+            next = 614; break;
+        case 'p':
+            next = 635;
+    }
+    document.getElementById('dito').style.left = next;
+}
 const prepare = next => {
     fillKeyboardDivs();
     const round = document.getElementById('round');
@@ -156,6 +198,7 @@ const prepare = next => {
         }`
     round.firstChild.classList.add('current');
     document.getElementById('key-' + round.firstChild.innerText).classList.add('selected');
+    showFinger(round.firstChild.innerText);
 }
 
 const init = () => {
@@ -218,6 +261,7 @@ const init = () => {
             if (currentElement.innerText != nextLetter) {
                 document.getElementById('key-' + currentElement.innerText).classList.remove('selected');
                 document.getElementById('key-' + nextLetter).classList.add('selected');
+                showFinger(nextLetter);
             }
 
         } else {

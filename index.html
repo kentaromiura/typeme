@@ -2,6 +2,35 @@
 
 <head>
     <style>
+        #hands {
+            position: relative;
+            width: 100%;
+        }
+
+        #hands img {
+            position: absolute;
+            transform: translate(0px, -105px) rotate(180deg) scale(2.5);
+            opacity: 0.3;
+        }
+
+        #dito {
+            position: absolute;
+            width: 20px;
+            height: 40px;
+            background: pink;
+            top: -30px;
+        }
+
+
+        #left {
+            right: 80px;
+        }
+
+        #right {
+            left: 80px;
+        }
+
+
         .key {
             width: 24px;
             height: 24px;
@@ -70,6 +99,9 @@
 
 <body>
     <section id="progress"></section>
+    <section id="hands"><img id="right" src="app/assets/right.svg"></img><img id="left" src="app/assets/left.svg"></img>
+        <div id="dito"></div>
+    </section>
     <section id="round"></section>
     <section id="keyboard"></section>
 </body>
